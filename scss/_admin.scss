@@ -1,0 +1,80 @@
+.wp-caption-text {
+    display: none;
+}
+
+.user_button_field .woocommerce-Button.button {
+	width: 250px;
+	position: relative;
+	float: right;
+	bottom: 74px;
+}
+.user_button_field #user_login {
+	width: 850px;
+}
+
+#customer_login {
+	padding: 50px 0;
+	display: inline-block;
+	width: 100%;
+}
+#customer_login .form-coman {
+	background: #fff;
+}
+#customer_login .form-coman h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+#customer_login .form-coman form label {
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 21px;
+	font-family: "Proxima Nova Lt", sans-serif;
+	padding-bottom: 10px;
+	width: 100%;
+	display: inline-block;
+}
+#customer_login .form-coman form .input-text {
+	height: 45px;
+	background: #333333;
+}
+#customer_login .form-coman form button {
+	background: #26f73e;
+	font-size: 18px;
+	padding: 11px 30px;
+	font-family: "Proxima Nova Lt", sans-serif;
+}
+.lost_reset_password {
+	padding: 50px 0;
+}
+.lost_reset_password label {
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 21px;
+	font-family: "Proxima Nova Lt", sans-serif;
+	padding-bottom: 10px;
+	width: 100%;
+	display: inline-block;
+}
+.lost_reset_password input {
+	height: 55px;
+	background: #333333;
+}
+.lost_reset_password button {
+	background: #26f73e;
+	font-size: 18px;
+	height: 55px;
+	font-family: "Proxima Nova Lt", sans-serif;
+}
+#customer_login
+	.woocommerce-form__label.woocommerce-form__label-for-checkbox.inline {
+	margin-left: 0px;
+	margin-top: 13px;
+}
+#customer_login
+	.woocommerce-form__label.woocommerce-form__label-for-checkbox.inline
+	span {
+	color: #7c7c7c;
+	font-size: 16px;
+	font-weight: 600;
+}

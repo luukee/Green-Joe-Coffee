@@ -1,0 +1,142 @@
+// updated theme header
+.page-template:not(.home) .fusion-header-wrapper .fusion-header-v5.fusion-mobile-menu-design-modern {
+    background-image: url("https://greenjoecoffee.com/wp-content/uploads/2019/11/green-joe-coffee-active-brewing-banner.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+    html.avada-header-color-not-opaque .page-template:not(.home) .fusion-header-wrapper {
+        position: relative;
+    }
+}
+
+.fusion-header-wrapper {
+.fusion-secondary-header .fusion-alignright {
+    display: flex;
+    justify-content: center;
+}
+}
+
+// END updated theme header
+
+header {
+	float: left;
+	width: 100%;
+}
+.fusion-header {
+	position: sticky;
+	right: 0;
+	left: 0;
+}
+.fusion-main-menu ul {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+
+.fusion-header .fusion-main-menu ul li a {
+	text-transform: uppercase;
+	height: 100%;
+	// line-height: 130;
+	border-top: 0;
+	font-family: "PT Sans", sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+
+.fusion-main-menu > ul > li > {
+	a:not(.fusion-logo-link) {
+		.fa {
+			font-size: 25px;
+			font-weight: normal;
+			transition: top ease-in-out;
+		}
+		&:hover .fa {
+			color: #282828;
+			top: -4px;
+		}
+	}
+}
+.fusion-header .fusion-main-menu ul li:not(.fusion-logo) {
+	flex: 0 0 auto;
+	align-items: center;
+}
+.fusion-header .fusion-main-menu ul li {
+	height: auto;
+	line-height: 111px;
+	margin: 0 20;
+	display: flex;
+	justify-content: center;
+}
+.fusion-header .fusion-main-menu ul .current-menu-item a span {
+	border-top: 0;
+	border-bottom: solid 3px #000;
+}
+
+// push header right to center
+.fusion-header-v7 .fusion-middle-logo-ul {
+	margin-left: 0;
+	@media only screen and (max-width: 767px) {
+		margin-left: 0;
+	}
+}
+
+.fusion-header-v7 .fusion-middle-logo-ul li.fusion-middle-logo-menu-logo a {
+	align-items: center;
+	border-top: 0 none;
+	position: relative;
+	top: 0;
+	z-index: 9999;
+}
+
+// .fusion-header .fusion-main-menu ul li.current-menu-item a:hover .menu-text {
+// 	border-bottom: 2px solid #32a855;
+// }
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-items {
+	background: #fff;
+	border: solid 1px #ddd;
+	width: 270;
+}
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-items .fusion-menu-cart-item a:hover {
+	background: none;
+}
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-items .fusion-menu-cart-item a {
+	border-bottom: solid 1px #ddd;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-checkout .fusion-menu-cart-link a:before {
+	color: #fff;
+	position: inherit;
+	margin: 0 10 0 0;
+}
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-checkout .fusion-menu-cart-link a {
+	border: solid 1px;
+	padding: 20 8px;
+	line-height: 0;
+	display: inline-block;
+	background: #50c878;
+	color: #fff;
+}
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-checkout .fusion-menu-cart-link a:hover {
+	background: #50c878;
+}
+.fusion-header .fusion-main-menu ul li .fusion-main-menu-icon:after {
+	content: "\f217";
+	font-weight: normal;
+	font-family: fontawesome;
+}
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-checkout .fusion-menu-cart-link {
+	padding: 25px 0;
+}
+.fusion-header .fusion-main-menu ul li .fusion-menu-cart-checkout {
+	background: #fff;
+}
+
+
+

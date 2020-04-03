@@ -1,0 +1,67 @@
+.fusion-main-menu {
+	overflow: visible;
+	ul > li {
+		padding-right: 0;
+    	margin: 0 12px;
+	}
+	.light-btn {
+		background: #fff;
+		color: $primaryColor;
+		font-weight: 600;
+		transition: all 2s ease-in-out;
+		a {
+			padding: 1rem;
+		}
+		&:hover {
+			color: #fff;
+			background: $primaryColor;
+		}
+	}
+}
+
+.fusion-logo img {
+    width: 120px;
+    margin: 11px;
+    height: auto;
+}
+.fusion-header .fusion-row {
+    padding-bottom: 5px;
+}
+
+.second-menu {
+	border-bottom: solid 1px #d9d9d9;
+	padding: 15px 0;
+	background: #fff;
+}
+.second-menu .fusion-layout-column {
+	margin-bottom: 0;
+}
+.second-menu ul {
+	margin: 0;
+	display: flex;
+    margin: 0 auto;
+	max-width: 50vw;
+	padding-left: 0;
+	text-align: center;
+}
+.second-menu ul li {
+	display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+}
+
+.second-menu ul li a {
+	color: $darkGrey;
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.second-menu ul li a:hover {
+	color: $primaryColor;
+}
+
+.second-menu .menu-item.current-menu-item a {
+	color: $primaryColor;
+	border-bottom: 3px solid $primaryColor;
+	margin-bottom: -3px;
+}

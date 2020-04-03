@@ -1,0 +1,178 @@
+.xoo-wsc-footer a.button {
+	background: #32a855 none repeat scroll 0 0;
+	color: #fff;
+	display: inline-block;
+	font-family: "Proxima Nova Lt", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 4px 0;
+	padding: 9px 29px;
+	text-transform: uppercase;
+}
+[class^="xoo-wsc-icon-"],
+[class*=" xoo-wsc-icon-"] {
+	font-size: 20px;
+}
+.xoo-wsc-ctxt {
+	color: #333333;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.xoo-wsc-container .xoo-wsc-product .product-title {
+	font-family: "PT Sans";
+}
+
+.xoo-wsc-subtotal {
+	color: #333333;
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	font-family: "PT Sans";
+}
+
+.xoo-wsc-shiptxt {
+	color: #3c3c3c;
+	display: block;
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 0 15px;
+	font-family: "PT Sans";
+}
+.xoo-wsc-footer {
+	padding: 20px;
+}
+.xoo-wsc-product {
+	padding: 20px;
+}
+.xoo-wsc-header {
+	padding: 20px;
+}
+
+.xoo-wsc-content {
+	font-size: 15px;
+	font-family: "PT Sans";
+}
+
+
+.xoo-wsc-footer a.button:hover {
+	background-color: #07d81f;
+}
+
+.woocommerce-cart .woocommerce form,
+.coupon,
+.cart_totals {
+	background: #fff;
+}
+.woocommerce-cart .cart-collaterals .shipping-coupon select {
+	height: 45px;
+	background: #333333;
+}
+.woocommerce-cart .cart-collaterals .shipping-coupon .input-text {
+	height: 45px;
+	background: #333333;
+}
+.woocommerce-cart .cart-collaterals .shipping-coupon .select-arrow {
+	background: #333;
+	border: none;
+}
+.woocommerce-cart .woocommerce {
+	padding: 50px 0;
+}
+.woocommerce-cart .woocommerce th {
+	font-family: PT sans;
+	font-size: 16px;
+}
+.woocommerce-cart .woocommerce td {
+	font-family: PT sans;
+	font-size: 16px;
+}
+.woocommerce-checkout .woocommerce {
+	padding: 50px 0;
+}
+.woocommerce-checkout .woocommerce .avada-myaccount-user {
+	background: #fff;
+	font-size: 15px;
+}
+.woocommerce-checkout .woocommerce .avada-myaccount-user .username {
+	padding-left: 20px;
+}
+.woocommerce-checkout .checkout_coupon {
+	background: #fff;
+}
+.woocommerce-checkout .checkout .col-1,
+.col-2 {
+	background: #fff;
+}
+.woocommerce-checkout .checkout .woocommerce-content-box {
+	background: #fff;
+}
+.woocommerce-checkout .checkout label {
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 21px;
+	font-family: "Proxima Nova Lt", sans-serif;
+	padding-bottom: 10px;
+	width: 100%;
+	margin-bottom: 0;
+}
+.woocommerce-checkout .checkout .woocommerce-content-box th {
+	font-family: PT sans;
+	font-size: 16px;
+}
+.woocommerce-checkout .checkout .woocommerce-content-box span {
+	font-family: PT sans;
+	font-size: 16px;
+}
+.woocommerce-checkout .checkout .woocommerce-content-box .product-info {
+	font-family: PT sans;
+	font-size: 16px;
+}
+.woocommerce-checkout .input-text {
+	height: 45px;
+	background: #333;
+	font-size: 17px;
+	color: #c7c7c7;
+	font-family: "PT Sans", sans-serif;
+}
+.woocommerce-checkout #order_comments {
+	height: 150px;
+	color: #c7c7c7;
+}
+.woocommerce-checkout .checkout .select2-selection {
+	background: #333;
+	height: 45px;
+	border-radius: 0;
+}
+.woocommerce-checkout .checkout .select2-selection span {
+	line-height: 44px;
+	color: #c7c7c7;
+	font-size: 17px;
+}
+.woocommerce-checkout .checkout .select2-selection .select2-selection__arrow {
+	top: 10px;
+}
+
+.woocommerce-checkout .button-default:hover {
+	background-color: #07d81f;
+}
+.woocommerce-cart .button-default:hover {
+	background-color: #07d81f;
+}
+.woocommerce-cart .checkout-button:hover {
+	background-color: #07d81f;
+}
+
+
+.woocommerce-cart input.input-text {
+	font-size: 17px;
+	color: #c7c7c7;
+	font-family: "PT Sans";
+}
+
+.woocommerce-cart .cart-collaterals .shipping-coupon select {
+	font-size: 17px;
+	color: #c7c7c7;
+	font-family: "PT Sans";
+}

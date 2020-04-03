@@ -1,0 +1,16 @@
+.our-story-block .fusion-layout-column {
+	margin-bottom: 60px;
+}
+.our-story-block .fusion-layout-column .fusion-title {
+	margin-bottom: 0;
+}
+.our-story-block .fusion-layout-column img {
+	transition: transform 1.4s;
+	width: 100%;
+}
+.our-story-block .fusion-layout-column img:hover {
+	transform: scale(1.1);
+}
+.our-story-block .fusion-layout-column .border-img {
+	background-position: left;
+}

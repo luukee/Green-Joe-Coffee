@@ -1,0 +1,205 @@
+$primaryColor: #32a855;
+$secondaryColor: #3ac162;
+$black: #282828;
+$darkGrey: #4a4a4a;
+$grey: #bfbfbf;
+$white: #fff;
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+	letter-spacing: 0em;
+	line-height: 1.6em;
+	text-transform: none;
+	color: #c7c7c7;
+}
+
+#wrapper .post-content .fusion-text blockquote {
+	border-color: $primaryColor;
+	h4 {
+		margin-bottom: 1.33em;
+	}
+}
+
+#home-section-title h2 {
+	color: #fff;
+	font-size: 22px;
+	padding: 15px 15px;
+}
+
+#home-title-clutcho h1 {
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	letter-spacing: 0.17em;
+	line-height: 1em;
+	padding: 30px 0px 30px 0px;
+	text-transform: none;
+}
+#home-title-join h1 {
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	white-space: pre-wrap;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 45px;
+	line-height: 0.85em;
+}
+p.para {
+	color: #c7c7c7;
+	text-align: center;
+	white-space: pre-wrap;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	letter-spacing: 0em;
+	line-height: 1.6em;
+	text-transform: none;
+}
+
+.flex-justified-center {
+    display: flex;
+    justify-content: center;
+}
+
+.fusion-fullwidth.fullwidth-box.fusion-parallax-none.background-img-opacity {
+	opacity: 0.8px;
+}
+.btn-customize input.wpcf7-submit {
+	background: #50c878;
+}
+#image-carousels {
+	padding-top: 30px;
+}
+.btn-customize {
+	text-align: center;
+	display: block;
+}
+.btn-customize input.wpcf7-form-control.wpcf7-submit {
+	padding: 15px 60px;
+}
+
+#main {
+	background: inherit;
+}
+#fusion-gmap-container,
+#main,
+#sliders-container,
+#wrapper,
+.fusion-separator .icon-wrapper,
+.woocommerce-MyAccount-navigation > ul .is-active a,
+.woocommerce-checkout-nav .is-active a,
+.woocommerce-tabs > .tabs .active a,
+body,
+html {
+	background-color: inherit;
+}
+p {
+	line-height: 32px;
+	color: #3c3c3c;
+	font-size: 18px;
+}
+h1 {
+	text-transform: uppercase;
+}
+
+h2,
+#order_review_heading {
+	font-family: "Proxima Nova Lt", sans-serif;
+	line-height: normal;
+	font-weight: 600;
+	font-size: 21px;
+}
+.border-img {
+	background: url(./images/border_img2.png) no-repeat;
+	background-position: center;
+	display: block;
+	margin: 15px 0;
+	height: 6px;
+}
+.related {
+	display: none;
+}
+
+
+.buttons_added {
+	background: #fff;
+}
+.buttons_added:hover {
+	border: solid 1px #4c4b4b;
+}
+.buttons_added .minus,
+.plus {
+	font-size: 20px;
+}
+.buttons_added .minus,
+.plus:focus {
+	outline: none;
+}
+.nf-form-content .green-btn-container input[type=button].green-btn {
+	background: $primaryColor;
+	color: $white;
+	padding: 17px 40px;
+	font-family: "PT Sans";
+	font-weight: 400;
+	line-height: 21px;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	&:hover {
+		background: $secondaryColor;
+	}
+}
+
+#comment-input input::-moz-placeholder,
+#comment-textarea textarea::-moz-placeholder,
+.comment-form-comment textarea::-moz-placeholder,
+.input-text::-moz-placeholder,
+.post-password-form label input[type="password"]::-moz-placeholder,
+.searchform .s::-moz-placeholder,
+input#s::-moz-placeholder,
+input::-moz-placeholder {
+	color: #c7c7c7;
+	font-family: "PT Sans", sans-serif;
+	opacity: 1;
+}
+
+.no-pointer {
+	cursor: default;
+}
+
+.svg-small {
+	width: 100px;
+	height: auto;
+}
+.menu-horizontal-svg-logo {
+	width: 300px;
+	height: auto;
+}
+
+.mt-1 {
+	margin-top: 1em;
+}
+.mt-3 {
+	margin-top: 3em;
+}
+.mt-4 {
+	margin-top: 4em;
+}
+
+.align-left {
+	text-align: left;
+}
+
+// accordian title
+.fusion-accordian .panel-title .fusion-toggle-heading {
+	font-size: 21px;
+	letter-spacing: 2px;
+}

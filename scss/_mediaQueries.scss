@@ -1,0 +1,395 @@
+@media only screen and (max-width: 767px) {
+	.one-half,
+	.one-third {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.fusion-header .fusion-mobile-menu-icons {
+		float: left;
+	}
+
+	.fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-main-menu {
+		display: block;
+		float: right;
+		width: 120px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		z-index: 0;
+	}
+	.fusion-header .fusion-mobile-menu-icons a::after {
+		display: none;
+	}
+
+	ul#mobile-menu-header-menu {
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.woocommerce-checkout .checkout label {
+		font-size: 15px;
+	}
+
+	.fusion-mobile-menu-icons {
+		right: 28px;
+	}
+
+	.second-menu ul li:last-child {
+		padding-right: 0px;
+	}
+
+	.block-locations h1::before {
+		display: none;
+	}
+	.border-img {
+		margin: 0 auto;
+		max-width: 57%;
+	}
+	.block-join-2 form label {
+		font-size: 15px;
+	}
+	.user_button_field .woocommerce-Button.button {
+		width: 350px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.user_button_field #user_login {
+		width: 350px;
+	}
+	.width-100 .nonhundred-percent-fullwidth {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0;
+	}
+	.fusion-title.fusion-sep-none .title-heading-left {
+		margin-bottom: 13px;
+		padding: 0;
+		text-align: center;
+	}
+	.our-story-block .fusion-layout-column {
+		margin-bottom: 5px;
+	}
+	.our-story-block .fusion-layout-column:nth-child(3) {
+		margin-top: 18px;
+	}
+	.fusion-footer footer .footer-menus ul li a {
+		font-size: 14px;
+		line-height: 28px;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+	.fusion-footer .fusion-footer-copyright-center .fusion-copyright-notice {
+		font-size: 13px;
+	}
+	body .fusion-footer-widget-area .fusion-social-networks-wrapper a {
+		font-size: 24px;
+	}
+	.fusion-footer footer .social_links {
+		margin: 23px 0px;
+	}
+	.post-content p {
+		font-size: 16px;
+		line-height: 30px;
+		margin-bottom: 20px;
+		margin-top: 0;
+		text-align: justify;
+	}
+	.our-story-block .fusion-layout-column .border-img {
+		background-position: center center;
+		margin: 0 auto;
+		max-width: 57%;
+		margin-top: 5px;
+	}
+	.fusion-header ul li a img {
+		max-width: 130px;
+	}
+	.fusion-header .fusion-mobile-menu-icons a {
+		font-size: 20px;
+	}
+	body .products li {
+		width: 100%;
+	}
+	.second-menu ul li {
+		padding: 0 6px;
+	}
+	html body .second-menu ul li a {
+		font-size: 9px;
+	}
+	.block-join .fusion-title {
+		margin-bottom: 0;
+	}
+	.block-join h1 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.second-block-locations .es_shortcode_form {
+		display: inline-block;
+	}
+	.second-block-locations .es_shortcode_form .es_textbox {
+		padding-bottom: 10px;
+	}
+	.woocommerce-checkout .checkout .form-row {
+		width: 100%;
+	}
+	.fusion-footer footer .footer-menus {
+		padding-top: 0;
+	}
+	.fusion-footer footer .fusion-column {
+		margin-bottom: 25px;
+	}
+	.block-green h1 {
+		font-size: 25px;
+	}
+	.block-green .border-img {
+		padding-top: 12px;
+	}
+	.block-green {
+		margin-bottom: 0;
+	}
+	.second-block-locations h1 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.feature_slider .rev-btn {
+		font-size: 13px;
+		padding: 10px 30px;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+	.second-menu ul li {
+		padding: 0 25px 0 0;
+	}
+
+	.fusion-mobile-menu-icons {
+		right: 41px;
+	}
+
+	.second-menu ul li:last-child {
+		padding-right: 0px;
+	}
+
+	body #main .products li:nth-child(3n) {
+		margin-right: 15px;
+	}
+	body #main .products li {
+		width: 47.55%;
+		margin-right: 15px;
+	}
+	body #main .products li:nth-child(2n) {
+		margin-right: 0px;
+	}
+}
+@media (max-width: 767px) {
+	.block-green .fusion-imageframe {
+		width: 100%;
+	}
+	#customer_login {
+		padding-bottom: 0;
+	}
+	#customer_login .col-1,
+	#customer_login .col-2,
+	.cart-totals-buttons,
+	.cart_totals,
+	.checkout_coupon,
+	.coupon,
+	.cross-sells,
+	.woocommerce-shipping-calculator {
+		padding: 19px;
+	}
+	.second-block-locations .es_shortcode_form {
+		margin-top: 18px;
+	}
+	.second-block-locations {
+		padding: 30px 30px 46px;
+	}
+	.second-block-locations .fusion-builder-row.fusion-row {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.second-block-locations p {
+		padding-bottom: 2px;
+		text-align: justify;
+	}
+	.block-locations {
+		padding: 89px 0;
+	}
+	.block-join-2 form label {
+		font-size: 16px;
+	}
+	.user_button_field .woocommerce-Button.button {
+		width: 350px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.user_button_field #user_login {
+		width: 350px;
+	}
+	.block-locations h1:before {
+		top: 50px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.first-half {
+		padding-right: 0;
+	}
+	body .fusion-title {
+		margin-top: 25px;
+	}
+	.fusion-header ul li a img {
+		max-width: 150px;
+	}
+	.fusion-header {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.fusion-header .fusion-mobile-menu-icons {
+		top: 25px;
+	}
+	.fusion-header .fusion-mobile-menu-icons a:before {
+		color: #000;
+	}
+	.fusion-header .fusion-mobile-menu-icons a {
+		font-size: 25px;
+	}
+	.fusion-header .fusion-mobile-menu-icons a:after {
+		content: "menu";
+		text-transform: uppercase;
+		padding-left: 15px;
+		color: #000;
+		font-family: "Proxima Nova Lt", sans-serif;
+	}
+	.fusion-header #mobile-menu-header-menu li a {
+		background: #fff;
+		font-size: 15px;
+		padding: 10px 30px;
+		line-height: 20px;
+		height: 40px;
+		font-weight: bold;
+	}
+	.block-contact-2 p {
+		width: 100%;
+	}
+	.second-block-locations p {
+		width: 100%;
+	}
+	/*.second-block-locations {
+	padding: 100px 0 ;
+}*/
+	.products li {
+		display: inline-block;
+		width: 48.28%;
+	}
+	.second-block-locations .es_shortcode_form {
+		width: 100%;
+	}
+	.fusion-mobile-menu-icons .fusion-icon-shopping-cart {
+		display: none;
+	}
+	.fusion-header #mobile-menu-header-menu li a .fusion-megamenu-icon {
+		display: block;
+	}
+	.block-join-2 form label {
+		font-size: 16px;
+	}
+	.block-join-2 form input {
+		height: 45px;
+	}
+	.block-join-2 form textarea {
+		height: 150px;
+	}
+	#customer_login .form-coman form label {
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	body #main .products li {
+		width: 31%;
+		margin-right: 15px;
+		float: left;
+		clear: none;
+	}
+	.orderby-order-container {
+		display: inline-block;
+	}
+	.sort-count.order-dropdown {
+		float: left;
+	}
+	.products li .product-details h3 a {
+		font-size: 15px;
+	}
+	.fusion-main-menu > ul > li {
+		padding-right: 20px;
+	}
+	.jas-action {
+		right: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.second-block-locations {
+		padding-bottom: 62px;
+		padding-top: 31px;
+	}
+	.fusion-modal h1,
+	.fusion-widget-area h1,
+	.post-content h1 {
+		display: inline-block;
+		font-size: 23px;
+		margin-top: 29px;
+	}
+	.fusion-header .fusion-main-menu ul li a {
+		font-size: 14px;
+	}
+	.block-tables .table-1 table .block-heading th {
+		font-size: 13px;
+	}
+	.products li {
+		width: 24.1%;
+	}
+	.fusion-header .fusion-main-menu ul li a img {
+		width: 130px;
+	}
+	.fusion-header .fusion-main-menu ul li {
+		padding-right: 21px;
+	}
+	.products li .product-details h3 a {
+		font-size: 16px;
+	}
+	.second-block-locations h1 {
+		font-size: 35px;
+	}
+	.second-block-locations p {
+		width: 65%;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header, 
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header {
+        padding-top: 0px;
+        padding-bottom: 20px;
+	}
+	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header .fusion-row {
+		height: 65px;
+	}
+		.fusion-header .fusion-mobile-menu-icons {
+        top: 30px;
+    }
+}

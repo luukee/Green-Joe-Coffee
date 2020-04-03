@@ -1,0 +1,57 @@
+.fusion-footer-widget-area ul li a {
+	display: block;
+	overflow: hidden;
+	float: left;
+	padding: 10px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+.fusion-footer footer {
+	padding: 0;
+	background: #222222;
+}
+.fusion-footer footer .footer-menus {
+	text-align: center;
+}
+.fusion-footer footer .footer-menus ul li {
+	display: inline-block;
+}
+.fusion-footer footer .footer-menus ul li a {
+	font-size: 16px;
+}
+.fusion-footer footer .social_links {
+	margin: 30px 0;
+}
+.fusion-footer footer .social_links a {
+	margin-bottom: 0;
+	font-size: 35px;
+}
+.fusion-footer footer .footer-menus {
+	text-align: center;
+	padding-top: 20px;
+}
+.fusion-footer footer .fusion-row {
+	max-width: 100%;
+}
+.fusion-footer footer .sbi_disable_mobile .sbi_photo_wrap {
+	overflow: hidden;
+}
+.fusion-footer footer .sbi_disable_mobile .sbi_photo_wrap a {
+	transition: transform 1.4s;
+}
+.fusion-footer footer .sbi_disable_mobile .sbi_photo_wrap a:hover {
+	transform: scale(1.1);
+}
+.fusion-footer .fusion-footer-copyright-center {
+	padding: 10px 0 30px;
+}
+.fusion-footer .fusion-footer-copyright-center .fusion-copyright-notice {
+	font-size: 16px;
+}
+.footer-menus ul li.current-menu-item a {
+	color: #32a855;
+}
+.footer-menus ul li a:hover {
+	color: #32a855;
+}
