@@ -1,0 +1,31 @@
+
+.recipe-container {
+    .fusion-popover {
+        display: flex;
+        align-items: baseline;
+        &:before {
+            content: "\f059";
+            margin: 0 10px;
+            font-family: "Font Awesome 5 Free";
+        }
+    }
+    .fusion-content-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        .heading.heading-with-icon {
+            display: flex;
+            flex-direction: column;
+            flex: 1 0 25%;
+        }
+    }
+    .fusion-column.content-box-column.content-box-column {
+        display: flex;
+        flex: 0 1 auto;
+        .content-box-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 10px 20px;
+        }
+    }
+}
