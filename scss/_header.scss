@@ -61,28 +61,32 @@ header {
 		}
 	}
 }
-.fusion-header .fusion-main-menu ul li:not(.fusion-logo) {
-	flex: 0 0 auto;
-	align-items: center;
-}
+// .fusion-header .fusion-main-menu ul li:not(.fusion-logo) {
+// 	flex: 0 0 auto;
+// 	align-items: center;
+// }
 .fusion-header .fusion-main-menu ul li {
 	height: auto;
 	line-height: 111px;
-	margin: 0 20;
 	display: flex;
 	justify-content: center;
+	margin: 0 20px;
 }
 .fusion-header .fusion-main-menu ul .current-menu-item a span {
 	border-top: 0;
-	border-bottom: solid 3px #000;
+	// border-bottom: solid 3px #000;
 }
 
 // push header right to center
 .fusion-header-v7 .fusion-middle-logo-ul {
-	margin-left: 0;
+	margin-left: 132px;
 	@media only screen and (max-width: 767px) {
 		margin-left: 0;
 	}
+}
+
+.fusion-header .info-dropdown ul.sub-menu {
+    margin-left: -60px;
 }
 
 .fusion-header-v7 .fusion-middle-logo-ul li.fusion-middle-logo-menu-logo a {

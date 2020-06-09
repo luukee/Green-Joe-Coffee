@@ -29,3 +29,30 @@
         }
     }
 }
+
+// hubspot popup
+.leadinModal-v3 .leadin-footer-wrapper,
+.leadinModal-v3 .leadin-footer-link-wrapper,
+.leadinModal .leadin-footer-link,
+.leadin-footer-link-microcopy {
+    visibility: hidden !important;
+	opacity: 0 !important;
+}
+
+.leadinModal.leadinModal-theme-default.leadinModal-v3 .leadinModal-content {
+    background-color: white !important;
+}
+
+.leadinModal.leadinModal-theme-default {
+    padding-top: 38vh !important;
+}
+
+.ilightbox-caption {
+    opacity: 0;
+}
+
+.ilightbox-next-button.smooth,
+.ilightbox-prev-button.smooth {
+    right: 20% !important;
+    left: auto !important;
+}

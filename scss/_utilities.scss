@@ -105,6 +105,14 @@ p {
 	color: #3c3c3c;
 	font-size: 18px;
 }
+footer p,
+footer h3,
+footer h4,
+footer h5 {
+	color: $grey !important;
+	text-align: center;
+}
+
 h1 {
 	text-transform: uppercase;
 }
@@ -115,6 +123,9 @@ h2,
 	line-height: normal;
 	font-weight: 600;
 	font-size: 21px;
+}
+h4 {
+    text-transform: uppercase;
 }
 .border-img {
 	background: url(./images/border_img2.png) no-repeat;
@@ -202,4 +213,30 @@ input::-moz-placeholder {
 .fusion-accordian .panel-title .fusion-toggle-heading {
 	font-size: 21px;
 	letter-spacing: 2px;
+}
+
+
+.es_subscription_form_submit.es_submit_button.es_textbox_button {
+    background: white !important;
+}
+
+
+
+/* single post */
+.single-post #main {
+    padding-top: 160px;
+}
+/* single post heading hide */
+.single-post .fusion-page-title-wrapper {
+    position: absolute;
+    text-indent: -100vw;
+}
+
+.fusion-gallery-column .img-responsive {
+    max-height: 100vh;
+    object-fit: contain;
+}
+/*hubspot popup */
+.leadinModal-v3 .leadin-footer-wrapper {
+    padding: 0;
 }

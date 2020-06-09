@@ -65,3 +65,12 @@
 	border-bottom: 3px solid $primaryColor;
 	margin-bottom: -3px;
 }
+/* main menu dropdown random arrow fix */
+span.fusion-dropdown-svg {
+    display: none !important;
+}
+
+
+.fusion-sub-menu-slide.avada-menu-highlight-style-arrow.fusion-top-header:not(.fusion-header-layout-v6) .fusion-main-menu .fusion-dropdown-menu>.sub-menu {
+	margin-top: 75px !important;
+}

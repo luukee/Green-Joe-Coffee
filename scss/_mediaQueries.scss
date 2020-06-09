@@ -26,6 +26,26 @@
 	ul#mobile-menu-header-menu {
 		margin-top: 40px;
 	}
+		.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header, 
+	.fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header, 
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header {
+        padding-top: 0px;
+        padding-bottom: 20px;
+	}
+	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header .fusion-row, 
+	.fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header .fusion-row {
+		height: 65px; 
+	}
+	.fusion-header .fusion-mobile-menu-icons {
+        top: 30px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
