@@ -65,7 +65,8 @@ header {
 // 	flex: 0 0 auto;
 // 	align-items: center;
 // }
-.fusion-header .fusion-main-menu ul li {
+
+.fusion-header .fusion-main-menu > ul > li {
 	height: auto;
 	line-height: 111px;
 	display: flex;
